@@ -1,0 +1,39 @@
+.App {
+  width: 100wh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #ffa372;
+}
+.Editor{
+ width: 40%;
+}
+.Previewer{
+ width: 60%;
+ border: 3px solid black;
+ padding: 2.5rem;
+ margin-top: 5vh;
+}
+
+.App textarea{
+    width: 100%;
+   height: 40vh;
+    text-align:center;
+    border: 3px solid black;
+    background-color: #ffa372;
+    font-size: 1.2em;
+}
+.App img{
+    width: 50rem;
+    margin-top: 2rem;
+}
+.App pre {
+    background-color: #fafafa;
+    display: block;
+}
+.App h1, h2, h3{
+    border-bottom: 1px solid black;
+    margin-bottom: 1.5rem;
+}
