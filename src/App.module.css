@@ -7,33 +7,60 @@
   padding: 1.5rem;
   background-color: #ffa372;
 }
-.Editor{
- width: 40%;
+.Editor {
+  width: 40%;
 }
-.Previewer{
- width: 60%;
- border: 3px solid black;
- padding: 2.5rem;
- margin-top: 5vh;
+.Previewer {
+  width: 60%;
+  border: 3px solid black;
+  padding: 2.5rem;
+  margin-top: 5vh;
 }
 
-.App textarea{
-    width: 100%;
-   height: 40vh;
-    text-align:center;
-    border: 3px solid black;
-    background-color: #ffa372;
-    font-size: 1.2em;
+.minimizedTextArea {
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+  border: 3px solid black;
+  background-color: #ffa372;
+  font-size: 1.2em;
 }
-.App img{
-    width: 50rem;
-    margin-top: 2rem;
+.App img {
+  width: 50rem;
+  margin-top: 2rem;
 }
 .App pre {
-    background-color: #fafafa;
-    display: block;
+  background-color: #fafafa;
+  display: block;
 }
-.App h1, h2, h3{
-    border-bottom: 1px solid black;
-    margin-bottom: 1.5rem;
+.App h1,
+h2,
+h3 {
+  border-bottom: 1px solid black;
+  margin-bottom: 1.5rem;
+}
+.boxHeader {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+  width: 100%;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.btn {
+  width: 1.5rem;
+}
+.maximizedTextArea{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  border: 3px solid black;
+  background-color: #ffa372;
+  font-size: 1.2em;
+}
+.App i:hover {
+  cursor: pointer;
+}
+.previewerMaximizedTextAreaHidden{
+display:none;
 }
